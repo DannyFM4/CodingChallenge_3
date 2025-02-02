@@ -19,5 +19,17 @@ let total = orders.reduce((sum, order) => sum + order,0); // this line adds the 
 console.log("The orders are:",orders); 
 console.log("Total orders:",total);
 
+//Task 3: Employee Performance Tracking Scenario: HR System You are tracking employee performance data
 
+// the lines below create an object named employee with different properties inside of it
+let employee = {
+    name: "Bruce Wayne",
+    role: "Sales Representative",
+    performanceScore: 25,
+    isActive: true
+};
 
+employee.performanceScore = 80; // this line is updating the performanceScore variable in the object
+employee.promotionEligible = true; // this line is adding a new variable in the object with a boolean value
+
+console.log("Employee info:", employee); // this line logs the object values in the console
