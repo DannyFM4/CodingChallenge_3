@@ -1,1 +1,1 @@
-This is my coding challenge 3 repository
+Coding challenge 3 repository
