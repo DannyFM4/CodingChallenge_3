@@ -33,3 +33,35 @@ employee.performanceScore = 80; // this line is updating the performanceScore va
 employee.promotionEligible = true; // this line is adding a new variable in the object with a boolean value
 
 console.log("Employee info:", employee); // this line logs the object values in the console
+
+//Task 4: Customer Feedback Records Scenario: Feedback Management You are collecting customer feedback data
+
+// the lines below create an arrayn named feedback with 3 objects inside the array 
+let feedback = [
+    {
+        customerName: "Saquon Barkley",
+        feedbackText: "Your performance has been amazing!",
+        rating: 10
+    },
+    {
+        customerName: "Aaron Rodgers",
+        feedbackText: "You need to improve your sales numbers",
+        rating: 7
+    },
+    {
+        customerName: "Daniel Jones",
+        feedbackText: "You need to improve in multiple aspects",
+        rating: 2
+    }
+];
+
+// the lines below add another object to the feedback array
+feedback.push(
+    {
+        customerName: "Xavier Worthy",
+        feedbackText: "Your sales have been high, but teamwork needs to improve",
+        rating: 8
+    }
+);
+
+console.log(feedback); // this line logs the entire array and objects in the console
