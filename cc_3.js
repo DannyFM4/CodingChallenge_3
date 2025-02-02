@@ -65,3 +65,23 @@ feedback.push(
 );
 
 console.log(feedback); // this line logs the entire array and objects in the console
+
+//Task 5: Inventory Management System Scenario: Stock Analysis You are developing a system to track inventory details
+
+//the lines below are creating an object named inventory
+let inventory = {
+    itemName: "Cologne",
+    stockCount: 25,
+    price: 40
+};
+
+// the lines below are running a function to calculate the total value of the stock by multiplying the stock count by the price of one cologne
+function calculateTotalValue(stockCount, price){
+    return stockCount * price;
+};
+
+let totalValue = calculateTotalValue(inventory.stockCount,inventory.price); // this line is assigning totalValue the value that is outputted by the function
+
+//the 2 lines below are logging the object "inventory" and the value of "totalValue" in the console
+console.log("Inventory:", inventory);
+console.log("The total value is:", totalValue);
